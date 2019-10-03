@@ -55,7 +55,6 @@ public class Assessment{
 		String word = "";
 		boolean firstBert = false;
 		boolean secondBert = false;
-		//boolean firstBertReached = false;
 		for (int i = 0; i < input.length()-3; i++){
     		char c = input.charAt(i);
     		if (firstBert == false) {
